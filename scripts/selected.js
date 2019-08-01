@@ -12,6 +12,14 @@ var Selected = function() {
     this.currentIndex = 0;
     this.lyric = null;
     this.lyricStyle = 0; //
+    //暫停撥放
+obtn.onclick=function () {
+     if (audio.paused && audio.currentTime > 0 && !audio.ended) {
+         audio.play();      
+         obtn.src="icon/Stop.png"    
+     } else {
+         audio.pause();           
+         obtn.src="icon/Play.png"     }};
 };
 Selected.prototype = {
     constructor: Selected, //
@@ -369,22 +377,9 @@ Double.onclick=function(){
         }
     }
      
-//暫停撥放
 
-    obtn.onclick=function () {
 
-     if (audio.paused && audio.currentTime > 0 && !audio.ended) {
-         audio.play();      
-         obtn.src="icon/Stop.png"
-        
-          
-     } else {
-         audio.pause(); 
-          
-         obtn.src="icon/Play.png" 
-       
-     }
-}
+    
 //全域暫停撥放
 /*var very =document.getElementById('zenbu')
     very.onclick=function () {
