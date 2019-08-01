@@ -1,0 +1,69 @@
+{
+    "data": [{
+        "song_name":"我懷念的",
+        "artist": "孫燕姿",
+        "lrc_name": "na_ge"
+    },{
+        "song_name": "Lemon",
+        "artist": "米津玄師",
+        "lrc_name": "Lemon"
+    },{
+        "song_name": "花篝り",
+        "artist": "大野愛果",
+        "lrc_name": "hana"
+    },{
+        "song_name": "後來",
+        "artist": "劉若英",
+        "lrc_name": "after"
+    },{
+        "song_name": "Bad Apple",
+        "artist": "nomico",
+        "lrc_name": "badApple"
+    },{
+        "song_name": "The Everlasting Guilty Crown",
+        "artist": "ryo",
+        "lrc_name": "guilty"
+    },{
+        "song_name": "我可以",
+        "artist": "蔡旻佑",
+        "lrc_name": "ican"
+    },{
+        "song_name": "三寸天堂",
+        "artist": "嚴藝丹",
+        "lrc_name": "kamisan" 
+    },{
+        "song_name": "君がくれたもの",
+        "artist": "茅野愛衣",
+        "lrc_name": "kimigakurerumono"
+    },{
+        "song_name": "畫心",
+        "artist": "張靚穎",
+        "lrc_name": "kokoro"
+    },{
+        "song_name": "你那麼愛他",
+        "artist": "李聖傑",
+        "lrc_name": "liveu"
+    },{
+        "song_name": "大きな古時計",
+        "artist": "嚴藝丹",
+        "lrc_name": "okinatoke"
+    },{
+        "song_name": "空は高く風は歌う",
+        "artist": "春奈るな",
+        "lrc_name": "sora"
+    },{
+        "song_name": "四月は君の嘘",
+        "artist": "わたしです",
+        "lrc_name": "usou"
+    },{
+        "song_name": "雪の華",
+        "artist": "中島美嘉",
+        "lrc_name": "yuki"
+    },{
+        "song_name": "3月9日",
+        "artist": "レミオロメン",
+        "lrc_name": "remioroman"
+    }]
+}
+
+

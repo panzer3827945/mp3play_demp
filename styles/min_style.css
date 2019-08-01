@@ -1,0 +1,161 @@
+@media screen and (max-width: 690px) {
+
+
+.bg {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+#lyricWrapper {
+
+    max-height: 400px;
+    min-height: 100px;
+    height: 100%;
+    width:100%;  
+    line-height: 40px;    
+    color: #FFF;
+    font-size: 1em;
+    margin-bottom: 70px;
+
+}
+.playlist {
+   position: fixed;
+  right:-230px;    
+    top:0;
+    text-align: left;
+    max-width: 150px;
+    width: 100%; 
+    max-height: calc(100% - 174px  );
+    height: 100%;
+    line-height: 3em;
+    padding: 40px;
+    line-height: 1.2em;  
+     font-size: 1em;   
+    z-index: 100;
+    background-color:#000000e3;
+}
+
+
+.playlist.active{
+  right:0;  
+}
+/*撥放用的字體*/
+.current-line-0 {
+    color: #FAFA17;
+    font-size:1.5em;
+}
+.current-line-1 {
+    color: #ff1493;
+    font-size:1.5em;
+}
+.current-line-2 {
+    color: #adff2f;
+  font-size:1.5em;
+}
+.current-line-3 {
+    color: #c617e8;
+    font-size:1.5em;
+}
+.current-song, .current-song a {
+    color: #FD8E0F;
+    font-size:1.1em;
+   text-decoration:none;
+}
+
+#ibaimono img{width: 30px;height: 30px;}
+
+
+#ibaimono  .items.naka  img{
+  width: 52px;height: 52px;
+}
+
+  /*iphon img*/
+  .imageBg{
+      
+ 
+  background: url(img/11.jpg);
+  background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+
+}
+.colorBg {
+    background: url(img/12.jpg);
+   background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+    
+}
+.imageBga{     
+ 
+  background: url(img/7.jpg);
+  background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+}
+.imageBgb{
+  background: url(img/8.jpg);
+  background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+}
+.imageBgc{
+  background: url(img/9.jpg);
+  background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+}
+.imageBgd{
+  background: url(img/10.jpg);
+  background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+}
+.volume .one{
+  list-style-type:none; 
+  width:80px;
+  height:80px;
+  margin-left:2%;
+  background:red;
+  border:solid 1px red;
+  border-radius:99px;
+  position:relative;
+  top:30px;
+  left:0;
+
+
+ }
+.one_a{
+  color:#FFF;
+  position: absolute;
+  top:30px;
+  left:78px;
+  width: 70px;
+  height:20px;
+  font-size: 1.2em;
+   background:#fb0e0ea6;
+  border-right:solid red 1px;
+  border-top:solid red 1px;
+  border-bottom:solid red 1px;
+   z-index:2;
+
+
+ }
+
+
+  .volume .two{
+    list-style-type:none;  
+  width:180px;
+  height:40px;
+  color:#FFF;
+  
+border-bottom:solid 2px red;
+}
+   }
