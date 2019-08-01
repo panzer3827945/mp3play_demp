@@ -88,7 +88,7 @@ Selected.prototype = {
 
         //背景顏色
         document.getElementById('bg_dark').addEventListener('click', function() {
-            document.getElementsByTagName('html')[0].className = 'imageBg';colorBg
+            document.getElementsByTagName('html')[0].className = 'imageBg';
        });
         document.getElementById('bg_pic').addEventListener('click', function() {
             document.getElementsByTagName('html')[0].className = 'colorBg';
