@@ -58,6 +58,7 @@ Selected.prototype = {
             var songName = e.target.getAttribute('data-name');
             window.location.hash = songName;
             that.play(songName);
+	    obtn.src="icon/Stop.png";
         }, false);
         this.audio.onended = function() {
             that.playNext(that);
@@ -102,6 +103,7 @@ Selected.prototype = {
         };
         currentSong.className = 'current-song';
         this.play(randomSong);
+	obtn.src="icon/Stop.png";
     },
     initialList: function(ctx) {
         var xhttp = new XMLHttpRequest();
